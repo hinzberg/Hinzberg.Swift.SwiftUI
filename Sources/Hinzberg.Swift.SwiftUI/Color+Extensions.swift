@@ -1,6 +1,5 @@
 //  Color + Helper.swift
-//  Apple_HelperClasses_Testing
-//  Created by Holger Hinzberg on 21.08.21.
+//  Last Update by Holger Hinzberg on 14.10.21.
 
 import SwiftUI
 
@@ -124,5 +123,13 @@ extension Color {
     
     static var lightBlue : Color {
         return Color.fromRGB(r: 154, g: 203, b: 255)
+    }
+    
+    static var cocoaBlue : Color {
+        return Color.fromRGB(r: 82, g: 94, b: 145)
+    }
+
+    static var cocoaLightBlue : Color {
+        return Color.fromRGB(r: 222, g: 229, b: 246)
     }
 }

@@ -117,19 +117,19 @@ extension Color {
         return Color(red: 1.0, green: 0.69, blue: 0.92, opacity: 1.0)
     }
     
-    static var skyBlue : Color {
+    public static var skyBlue : Color {
         return Color.fromRGB(r: 130, g: 204, b: 255)
     }
     
-    static var lightBlue : Color {
+    public static var lightBlue : Color {
         return Color.fromRGB(r: 154, g: 203, b: 255)
     }
     
-    static var cocoaBlue : Color {
+    public static var cocoaBlue : Color {
         return Color.fromRGB(r: 82, g: 94, b: 145)
     }
 
-    static var cocoaLightBlue : Color {
+    public static var cocoaLightBlue : Color {
         return Color.fromRGB(r: 222, g: 229, b: 246)
     }
 }

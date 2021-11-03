@@ -12,6 +12,8 @@ public struct HorizontalColorLabelDivider: View {
     var horizontalPadding : CGFloat = 0
     var font : Font = .footnote
     
+    public init() {}
+    
     public var body: some View {
         HStack {
             HorizontalColorDivider(height: self.height, color: self.color, opacity: self.opacity)

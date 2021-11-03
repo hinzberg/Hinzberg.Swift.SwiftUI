@@ -8,6 +8,8 @@ public struct VerticalColorDivider: View {
     var color: Color = .gray
     var opacity: Double = 1
     
+    public init() {}
+    
     public var body: some View {
         Group {
             Rectangle()

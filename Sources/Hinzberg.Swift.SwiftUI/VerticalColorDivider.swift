@@ -8,7 +8,11 @@ public struct VerticalColorDivider: View {
     public var color: Color = .gray
     public var opacity: Double = 1
     
-    public init() {}
+    public init(width: CGFloat = 1, color: Color = .gray, opacity: Double = 1) {
+        self.width = width
+        self.color = color
+        self.opacity = opacity
+    }
     
     public var body: some View {
         Group {

@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-struct VerticalColorDivider: View {
+public struct VerticalColorDivider: View {
     var width: CGFloat = 1
     var color: Color = .gray
     var opacity: Double = 1

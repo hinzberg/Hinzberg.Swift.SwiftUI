@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-struct HorizontalColorLabelDivider: View {
+public struct HorizontalColorLabelDivider: View {
     
     var height: CGFloat = 1
     var color: Color = .gray

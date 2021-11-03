@@ -5,9 +5,9 @@ import SwiftUI
 
 public struct HorizontalColorDivider: View {
     
-    var height: CGFloat = 1
-    var color: Color = .gray
-    var opacity: Double = 1
+    public var height: CGFloat = 1
+    public var color: Color = .gray
+    public var opacity: Double = 1
     
     public init() {}
     

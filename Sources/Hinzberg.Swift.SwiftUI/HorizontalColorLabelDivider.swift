@@ -5,12 +5,12 @@ import SwiftUI
 
 public struct HorizontalColorLabelDivider: View {
     
-    var height: CGFloat = 1
-    var color: Color = .gray
-    var opacity: Double = 1
-    var text : String = "Label"
-    var horizontalPadding : CGFloat = 0
-    var font : Font = .footnote
+    public var height: CGFloat = 1
+    public var color: Color = .gray
+    public var opacity: Double = 1
+    public var text : String = "Label"
+    public var horizontalPadding : CGFloat = 0
+    public var font : Font = .footnote
     
     public init() {}
     

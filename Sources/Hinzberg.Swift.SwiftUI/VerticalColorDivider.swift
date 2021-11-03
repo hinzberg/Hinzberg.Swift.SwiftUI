@@ -4,9 +4,9 @@
 import SwiftUI
 
 public struct VerticalColorDivider: View {
-    var width: CGFloat = 1
-    var color: Color = .gray
-    var opacity: Double = 1
+    public var width: CGFloat = 1
+    public var color: Color = .gray
+    public var opacity: Double = 1
     
     public init() {}
     

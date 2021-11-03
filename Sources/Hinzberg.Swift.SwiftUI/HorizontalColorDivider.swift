@@ -9,7 +9,7 @@ public struct HorizontalColorDivider: View {
     var color: Color = .gray
     var opacity: Double = 1
     
-    var body: some View {
+    public var body: some View {
         Group {
             Rectangle()
         }
